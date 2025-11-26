@@ -1,0 +1,223 @@
+
+/* ------------------------------------------------------ */
+/* RESPONSIVE BREAKPOINTS */
+/* ------------------------------------------------------ */
+
+@media (max-width:1399px) {
+   .title{
+    font-size: 125px;
+   } 
+   .subtitle{
+    font-size: 60px;
+   }
+   .hero-right img{
+    width: 450px;
+   }
+}
+
+
+/* 1199px and below */
+@media (max-width: 1199px) {
+    .divider-img{
+        display: none;
+    }
+}
+
+
+/* 1099px and below */
+
+@media (max-width:1099px) {
+   .title{
+    font-size: 100px;
+   } 
+   .subtitle{
+    font-size: 60px;
+   }
+   .hero-right img{
+    width: 400px;
+   }
+}
+
+
+/* 996px and below  */
+
+
+
+
+@media (max-width: 996px) {
+
+    .hero-right {
+        display: none !important;
+    }
+
+     .hero-left {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 120px;
+        justify-content: center;
+    }
+    .subtitle {
+        font-size: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .icon-row {
+        justify-content: center;
+    }
+
+    .cv-btn {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+/* 768px and below */
+@media (max-width: 768px) {
+    .stats-section {
+        padding: 20px;
+    }
+
+    .stat h3 {
+        font-size: 2rem;
+    }
+
+    .stat p {
+        font-size: 1rem;
+    }
+    .testimonial-author {
+    font-size: 20px!important;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.testimonial-text {
+    font-size: 18px!important;
+    line-height: 1.5;
+}
+.testimonial-shield img{
+    width: 40px!important;
+    height: 40px!important;
+}
+    .thankyou-box {
+        padding: 0px;
+        flex-direction: row;
+        text-align: center;
+        min-height: auto;
+    }
+
+    .left-img {
+        position: static;
+        transform: none;
+        width: 20%;
+         border-radius: 10px;
+    }
+    .thankyou-text {
+        margin: 0;
+    }
+}
+
+
+/* 576px and below */
+@media (max-width: 576px) {
+
+    .title {
+        font-size: 78.79px;
+        letter-spacing: 2px;
+    }
+
+    .subtitle {
+        font-size: 45px;
+        flex-direction:row;
+    }
+
+    .cv-btn {
+        max-width: 100%;
+    }
+     .portfolio-card img {
+    width: 500px;   
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 20px; 
+    padding: 20px;
+}
+    .testimonial-author {
+    font-size: 18px!important;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.testimonial-text {
+    font-size: 14px!important;
+    line-height: 1.5;
+    max-width: 80%;
+}
+.testimonial-shield img{
+    width: 20px!important;
+    height: 20px!important;
+}
+}
+
+/* 430px and below  */
+
+
+@media (max-width: 430px) {
+
+    .title {
+        font-size: 60px;
+    }
+
+    .subtitle {
+        font-size: 32px;
+        flex-direction:row;
+    }
+
+    .cv-btn {
+        max-width: 100%;
+    }
+     .portfolio-card img {
+    width: 380px;   
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 20px; 
+    padding: 20px;
+}
+    .skill-card {
+    flex-direction: column;
+    }
+  
+    .testimonial-author {
+    font-size: 14px!important;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.testimonial-text {
+    font-size: 12px!important;
+    line-height: 1.5;
+    max-width: 90%;
+}
+.testimonial-shield img{
+    width: 20px!important;
+    height: 20px!important;
+    margin-top: 0;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
