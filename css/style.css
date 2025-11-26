@@ -300,7 +300,7 @@ body {
     width: 150px;
     border-radius: 10px;
     position: absolute;
-    left: 30px;     
+    left: -10px;     
     top: 25%;
     transform: translateY(-50%);
 }
